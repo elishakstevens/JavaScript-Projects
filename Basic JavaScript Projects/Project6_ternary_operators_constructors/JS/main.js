@@ -42,3 +42,14 @@ function dinnerOrderTrue() {
     document.getElementById("trueOrder").innerHTML = "true decided to have a " +
     trueDinner.dinner_entree + " for dinner with " + trueDinner.dinner_sideOne + ".";
 }
+
+//NESTED FUNCTIONS ASSIGNMENT
+function nestedFunction() {
+    document.getElementById("nestedFunction").innerHTML = nest();
+    function nest() {
+        var count = 3;
+        function countNest() {count +=2;}
+        countNest();
+        return count;
+    }
+}
