@@ -36,3 +36,9 @@ function dinnerOrder() {
     + Kylie.dinner_entree + " with the " + Kylie.dinner_sideTwo + " and a side of "
     + Kylie.dinner_sideOne + ". She paired it with her favorite drink - " + Kylie.dinner_drink + ".";
 }
+//RESERVED KEYWORD CHALLENGE
+var trueDinner = new dinner("Turkey Sandwich", "Barbeque Chips", "Pickle", "Lemonade");
+function dinnerOrderTrue() {
+    document.getElementById("trueOrder").innerHTML = "true decided to have a " +
+    trueDinner.dinner_entree + " for dinner with " + trueDinner.dinner_sideOne + ".";
+}
