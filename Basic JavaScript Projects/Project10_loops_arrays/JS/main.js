@@ -53,3 +53,44 @@ document.getElementById("varKey").innerHTML = F;
     document.getElementById("letKey").innerHTML = F;
 }
 document.getElementById("block").innerHTML = F;
+
+//Using return statement to perform math operation
+document.getElementById("Return").innerHTML = returnFunction(4);
+function returnFunction(num) {
+    return 87 * num;
+}
+
+//Creating an object with properties and a method
+let Bird = {
+    breed: "Parakeet ",
+    age: 2,
+    name: "Sky ",
+    description: function() {
+        return "This bird is a " + this.age + " year old " + this.breed + "named " + this.name + "!";
+    }
+};
+document.getElementById("bird").innerHTML = Bird.description();
+
+//Breaking out of a loop if condition is true
+function breakLoop() {
+    let num = "";
+    for(i = 0; i < 15; i++) {
+        if (i == 7) {
+            break;
+        }
+        num += "This number is " + i + "<br>";
+    }
+    document.getElementById("break").innerHTML = num;
+}
+
+//Breaking an interation of a loop if condition is true
+function continueLoop() {
+    let num = "";
+    for(i = 0; i < 15; i++) {
+        if (i == 7) {
+            continue;
+        }
+        num += "This number is " + i + "<br>";
+    }
+    document.getElementById("continue").innerHTML = num;
+}
