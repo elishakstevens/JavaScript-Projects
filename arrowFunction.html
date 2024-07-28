@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Arrow Function</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p id="arrow" onclick="arrowFunction()" style="cursor: pointer;">What is this?</p>
+        <script>
+            
+            arrowFunction = () => {
+                let x = "This is my arrow function";
+                document.getElementById("arrow").innerHTML = x;
+            }
+
+        </script>
+    </body>
+</html>
