@@ -206,3 +206,7 @@ function resetGame() {
     //This resets array so it's empty and can start over
     selectedSquares = [];
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.remove('fade-out');
+});

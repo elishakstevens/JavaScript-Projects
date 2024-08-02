@@ -6,10 +6,20 @@
     margin: 0 auto;
     /*50px down from the top*/
     margin-top: 50px;
+    /*Fade In as page loads*/
+    opacity: 1;
+    transition: 1s opacity;
 }
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+/*End Fade In*/
 
 h1 {
     text-align: center;
+    font-size: 4vw;
 }
 
 table {
