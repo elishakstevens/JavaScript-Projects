@@ -21,11 +21,13 @@ div {
     width: 400px;
     height: 470px;
     margin: 10px auto;
+    animation: menuMove 1s linear;
 }
 
 #frmMenu {
     width: 600px;
     height: 200px;
+    
 }
 
 #totalPrice {
@@ -74,3 +76,9 @@ div {
     display: block;
     margin: 25px auto;
 }
+
+@keyframes menuMove {
+    from {transform: translateY(-100%)};
+    to {transform: translateY(0%)};
+}
+
