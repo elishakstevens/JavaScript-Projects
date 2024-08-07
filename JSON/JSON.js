@@ -8,3 +8,6 @@ document.getElementById("string").innerHTML = myJSON;
 
 var obj2 = JSON.parse(myJSON);
 document.getElementById("string2").innerHTML = obj2.name + " lives in " + obj2.city;
+
+localStorage.setItem("Name", "Elisha");
+document.getElementById("localStorage").innerHTML = localStorage.getItem("Name");
