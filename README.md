@@ -4,10 +4,10 @@ All projects were created using HTML, CSS, and Javascript.
  
 ## Main Projects
 
-- TicTacToe
-- Calculator
-- Pizza Menu
-- To-Dos App
+- [TicTacToe](https://github.com/elishakstevens/JavaScript-Projects/tree/main/TicTacToe)
+- [Calculator](https://github.com/elishakstevens/JavaScript-Projects/tree/main/Calculator)
+- [Pizza Menu](https://github.com/elishakstevens/JavaScript-Projects/tree/main/Pizza_Project)
+- [To-Dos App](https://github.com/elishakstevens/JavaScript-Projects/tree/main/todo_app)
 
 ### TicTacToe
 This project is a TicTacToe game that the user plays against the computer. The user will click the boxes where they want their 'X' to go, and the computer will randomly choose an open spot to place an 'O'.
